@@ -5,6 +5,7 @@
 * 2、安装Redis服务端
 * 3、安装mysql服务端并新建bookstore数据库
 * 4、修改/bookstore/setting.py文件中的数据库配置
+```
         DATABASES = {
             'default': {
             'ENGINE': 'django.db.backends.mysql',
@@ -15,6 +16,7 @@
             'PORT': 3306,
                 }
         }
+```
 * 5、数据库迁移
         $ python manage.py makemigrations
         $ python manage.py migrate
@@ -27,7 +29,19 @@
 * 10、愉快的玩耍吧
         
     注意：原作者setting.py中全局搜索配置写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
-    需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
+          需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
+```
+# 全文检索配置
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        # 使用whoosh引擎
+        # 'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        # 索引文件路径
+        'PATH': os.path.join(BASE_DIR, 'whoosh_index'),
+    }
+}
+```
 
 
 - [1，新建项目](#1)

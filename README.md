@@ -1,11 +1,10 @@
 # 目录
 #### 运行项目条件
-
-    1、安装python3.5.3，安装依赖包
-        pip install -r requirement.txt
-    2、安装Redis服务端
-    3、安装mysql服务端并新建bookstore数据库
-    4、修改/bookstore/setting.py文件中的数据库配置
+* 1、安装python3.5.3，安装依赖包
+        ip install -r requirement.txt
+* 2、安装Redis服务端
+* 3、安装mysql服务端并新建bookstore数据库
+* 4、修改/bookstore/setting.py文件中的数据库配置
         DATABASES = {
             'default': {
             'ENGINE': 'django.db.backends.mysql',
@@ -16,20 +15,21 @@
             'PORT': 3306,
                 }
         }
-    5、数据库迁移
+* 5、数据库迁移
         $ python manage.py makemigrations
         $ python manage.py migrate
-    6、创建后台超级管理员
+* 6、创建后台超级管理员
         $ python manage.py createsuperuser
-    7、启动服务python manage.py runserver 8000
-    8、访问127.0.0.1:8000
-![](.README_images/f2af2a79.png)    
-    9、然后前台注册登录等
+* 7、启动服务python manage.py runserver 8000
+* 8、访问127.0.0.1:8000
+![](.README_images/f2af2a79.png)
+* 9、然后前台注册登录等
+* 10、愉快的玩耍吧
         
-    注意：原作者setting.py中写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
+    注意：原作者setting.py中全局搜索配置写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
     需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
 
-![](.README_images/289e06eb.png)
+
 - [1，新建项目](#1)
 - [2，用户系统开发](#2)
 - [3，书籍商品模块](#3)

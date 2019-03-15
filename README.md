@@ -20,14 +20,21 @@
         }
 ```
 * 5、数据库迁移
-        $ python manage.py makemigrations
-        $ python manage.py migrate
+```
+    $ python manage.py makemigrations
+    $ python manage.py migrate
+```   
 * 6、创建后台超级管理员
-        $ python manage.py createsuperuser
-* 7、启动服务python manage.py runserver 8000
-* 8、访问127.0.0.1:8000
+```
+     $ python manage.py createsuperuser
+```
+* 7、启动服务
+```
+    $ python manage.py runserver 8000
+```
+* 8、访问 127.0.0.1:8000
 ![](.README_images/f2af2a79.png)
-* 9、然后前台注册登录等
+* 9、然后前台注册登录等,后台添加数据
 * 10、愉快的玩耍吧
         
     注意：原作者setting.py中全局搜索配置写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',

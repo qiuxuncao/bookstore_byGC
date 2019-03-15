@@ -29,7 +29,7 @@
     注意：原作者setting.py中写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
     需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
 
-
+![](.README_images/289e06eb.png)
 - [1，新建项目](#1)
 - [2，用户系统开发](#2)
 - [3，书籍商品模块](#3)

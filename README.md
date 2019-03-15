@@ -33,7 +33,7 @@
     $ python manage.py runserver 8000
 ```
 * 8、访问 127.0.0.1:8000
-![](.README_images/f2af2a79.png)
+![](.README_images/index.png)
 * 9、然后前台注册登录等,后台添加数据
 ![](.README_images/zhuce.png)
 ![](.README_images/login.png)

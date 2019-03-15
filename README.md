@@ -1,6 +1,6 @@
 # 目录
 #### 运行项目条件
-```
+
     1、安装python3.5.3，安装依赖包
         pip install -r requirement.txt
     2、安装Redis服务端
@@ -23,13 +23,12 @@
         $ python manage.py createsuperuser
     7、启动服务python manage.py runserver 8000
     8、访问127.0.0.1:8000
-        ![](.README_images/ceshi.png)
-        ![](.README_images/691769e9.png)
+![](.README_images/f2af2a79.png)    
     9、然后前台注册登录等
-    
+        
     注意：原作者setting.py中写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
     需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
-```
+
 
 - [1，新建项目](#1)
 - [2，用户系统开发](#2)

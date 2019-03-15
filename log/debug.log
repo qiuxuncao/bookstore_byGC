@@ -1,0 +1,2769 @@
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.0" 200 8688
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.0" 404 3279
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.0" 200 8688
+INFO "GET /cart/count/ HTTP/1.0" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.0" 200 8688
+INFO "GET /cart/count/ HTTP/1.0" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8688
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/images/slide.jpg HTTP/1.1" 200 78511
+INFO "GET /static/images/logo.png HTTP/1.1" 200 15796
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO "GET /static/images/slide03.jpg HTTP/1.1" 200 49384
+INFO "GET /static/images/slide02.jpg HTTP/1.1" 200 447014
+INFO "GET /static/images/adv01.jpg HTTP/1.1" 200 42152
+INFO "GET /static/images/banner01.jpg HTTP/1.1" 200 39415
+INFO "GET /static/books/book001.jpg HTTP/1.1" 200 9350
+INFO "GET /static/books/book002.jpg HTTP/1.1" 200 7573
+INFO "GET /static/images/slide04.jpg HTTP/1.1" 200 181109
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /static/images/icons.png HTTP/1.1" 200 5931
+INFO "GET /static/images/adv02.jpg HTTP/1.1" 200 300169
+INFO "GET /static/images/banner02.jpg HTTP/1.1" 200 14224
+INFO "GET /static/images/banner03.jpg HTTP/1.1" 200 5569
+INFO "GET /static/images/banner04.jpg HTTP/1.1" 200 14876
+INFO "GET /static/images/banner05.jpg HTTP/1.1" 200 17903
+INFO "GET /static/images/banner06.jpg HTTP/1.1" 200 10206
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3284
+INFO b''
+INFO b''
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.0" 200 8688
+INFO "GET /cart/count/ HTTP/1.0" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.0" 200 8688
+INFO "GET /cart/count/ HTTP/1.0" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.0" 200 8688
+INFO "GET /cart/count/ HTTP/1.0" 200 10
+INFO 
+INFO 
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\books\views.py", line 58, in index
+    return render(request, 'books/index.html', context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\defaulttags.py", line 173, in render
+    len_values = len(values)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\sql\compiler.py", line 899, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'bookstore.s_books' doesn't exist")
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\books\views.py", line 58, in index
+    return render(request, 'books/index.html', context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\defaulttags.py", line 173, in render
+    len_values = len(values)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\sql\compiler.py", line 899, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'bookstore.s_books' doesn't exist")
+ERROR "GET / HTTP/1.1" 500 179644
+INFO 
+INFO 
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\books\views.py", line 58, in index
+    return render(request, 'books/index.html', context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\defaulttags.py", line 173, in render
+    len_values = len(values)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\sql\compiler.py", line 899, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'bookstore.s_books' doesn't exist")
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\books\views.py", line 58, in index
+    return render(request, 'books/index.html', context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\template\defaulttags.py", line 173, in render
+    len_values = len(values)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\sql\compiler.py", line 899, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'bookstore.s_books' doesn't exist")
+ERROR "GET / HTTP/1.1" 500 180580
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3282
+WARNING Not Found: /insdex
+WARNING Not Found: /insdex
+WARNING "GET /insdex HTTP/1.1" 404 3267
+WARNING Not Found: /index
+WARNING Not Found: /index
+WARNING "GET /index HTTP/1.1" 404 3264
+INFO "GET /login HTTP/1.1" 301 0
+WARNING "GET /login/ HTTP/1.1" 405 7534
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "GET /admin HTTP/1.1" 301 0
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+INFO "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+ERROR Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\edit.py", line 182, in post
+    if form.is_valid():
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 183, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 175, in errors
+    self.full_clean()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 385, in full_clean
+    self._clean_form()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 412, in _clean_form
+    cleaned_data = self.clean()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\forms.py", line 187, in clean
+    self.user_cache = authenticate(self.request, username=username, password=password)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\backends.py", line 18, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\base_user.py", line 48, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 374, in get
+    num = len(clone)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\sql\compiler.py", line 899, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'bookstore.auth_user' doesn't exist")
+ERROR Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\edit.py", line 182, in post
+    if form.is_valid():
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 183, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 175, in errors
+    self.full_clean()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 385, in full_clean
+    self._clean_form()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\forms\forms.py", line 412, in _clean_form
+    cleaned_data = self.clean()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\forms.py", line 187, in clean
+    self.user_cache = authenticate(self.request, username=username, password=password)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\backends.py", line 18, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\base_user.py", line 48, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 374, in get
+    num = len(clone)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 1118, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\sql\compiler.py", line 899, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'bookstore.auth_user' doesn't exist")
+ERROR "POST /admin/login/?next=/admin/ HTTP/1.1" 500 196415
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+WARNING Not Found: /a
+WARNING Not Found: /a
+WARNING "GET /a HTTP/1.1" 404 3252
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8037
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO "GET /static/images/logo.png HTTP/1.1" 200 15796
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/images/slide.jpg HTTP/1.1" 200 78511
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /static/images/adv01.jpg HTTP/1.1" 200 42152
+INFO "GET /static/images/slide03.jpg HTTP/1.1" 200 49384
+INFO "GET /static/images/banner01.jpg HTTP/1.1" 200 39415
+INFO "GET /static/images/slide04.jpg HTTP/1.1" 200 181109
+INFO "GET /static/images/icons.png HTTP/1.1" 200 5931
+INFO "GET /static/images/slide02.jpg HTTP/1.1" 200 447014
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/images/banner02.jpg HTTP/1.1" 200 14224
+INFO "GET /static/images/banner03.jpg HTTP/1.1" 200 5569
+INFO "GET /static/images/banner04.jpg HTTP/1.1" 200 14876
+INFO "GET /static/images/banner05.jpg HTTP/1.1" 200 17903
+INFO "GET /static/images/banner06.jpg HTTP/1.1" 200 10206
+INFO "GET /cart/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/images/login_banner.png HTTP/1.1" 200 26039
+INFO "GET /static/images/icons02.png HTTP/1.1" 200 2071
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR "GET /user/verifycode/ HTTP/1.1" 500 88264
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR "GET /user/verifycode/?0.15510557464364383 HTTP/1.1" 500 88682
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8037
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8037
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8037
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+ERROR Internal Server Error: /search/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 51, in __call__
+    return self.create_response()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 150, in create_response
+    context = self.get_context()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 128, in get_context
+    (paginator, page) = self.build_page()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 108, in build_page
+    self.results[start_offset:start_offset + self.results_per_page]
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\query.py", line 307, in __getitem__
+    self._fill_cache(start, bound)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\query.py", line 231, in _fill_cache
+    results = self.query.get_results(**kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\__init__.py", line 638, in get_results
+    self.run(**kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\__init__.py", line 556, in run
+    results = self.backend.search(final_query, **search_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\__init__.py", line 33, in wrapper
+    return func(obj, query_string, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 308, in search
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR Internal Server Error: /search/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 51, in __call__
+    return self.create_response()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 150, in create_response
+    context = self.get_context()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 128, in get_context
+    (paginator, page) = self.build_page()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\views.py", line 108, in build_page
+    self.results[start_offset:start_offset + self.results_per_page]
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\query.py", line 307, in __getitem__
+    self._fill_cache(start, bound)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\query.py", line 231, in _fill_cache
+    results = self.query.get_results(**kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\__init__.py", line 638, in get_results
+    self.run(**kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\__init__.py", line 556, in run
+    results = self.backend.search(final_query, **search_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\__init__.py", line 33, in wrapper
+    return func(obj, query_string, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 308, in search
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR "GET /search/?q=jenkins HTTP/1.1" 500 131990
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8037
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+WARNING Not Found: /register.html
+WARNING Not Found: /register.html
+WARNING "GET /register.html HTTP/1.1" 404 3288
+INFO "GET /cart HTTP/1.1" 301 0
+INFO "GET /cart/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR "GET /user/verifycode/ HTTP/1.1" 500 88264
+INFO "POST /user/login_check/ HTTP/1.1" 200 43
+WARNING Not Found: /user/login/undefined
+WARNING Not Found: /user/login/undefined
+WARNING "GET /user/login/undefined HTTP/1.1" 404 5044
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR Internal Server Error: /user/verifycode/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\deprecation.py", line 142, in __call__
+    response = self.process_response(request, response)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\middleware.py", line 58, in process_response
+    request.session.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 57, in save
+    return self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR "GET /user/verifycode/ HTTP/1.1" 500 88264
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+ERROR Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\edit.py", line 183, in post
+    return self.form_valid(form)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 311, in cycle_key
+    self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 393, in login
+    return LoginView.as_view(**defaults)(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super(LoginView, self).dispatch(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\generic\edit.py", line 183, in post
+    return self.form_valid(form)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\views.py", line 119, in form_valid
+    auth_login(self.request, form.get_user())
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\auth\__init__.py", line 140, in login
+    request.session.cycle_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 311, in cycle_key
+    self.create()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 44, in create
+    self._session_key = self._get_new_session_key()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 164, in _get_new_session_key
+    if not self.exists(session_key):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\sessions\backends\cache.py", line 71, in exists
+    return session_key and (self.cache_key_prefix + session_key) in self._cache
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\cache\backends\base.py", line 203, in __contains__
+    return self.has_key(key)
+  File "E:\bookstore\py2_venv\lib\site-packages\django_redis\cache.py", line 40, in _decorator
+    raise e.parent
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+ERROR "POST /admin/login/?next=/admin/ HTTP/1.1" 500 167499
+INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO "GET /admin/ HTTP/1.1" 200 4715
+INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO "GET /admin/books/books/add/ HTTP/1.1" 200 10522
+INFO "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+INFO "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 200 2180
+INFO "GET /static/django_tinymce/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+INFO "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO "GET /static/tiny_mce/tiny_mce.js HTTP/1.1" 200 232972
+INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO "GET /static/tiny_mce/themes/advanced/editor_template.js HTTP/1.1" 200 26734
+INFO "GET /static/tiny_mce/langs/en.js HTTP/1.1" 200 6469
+INFO "GET /static/tiny_mce/themes/advanced/langs/en.js HTTP/1.1" 200 2368
+INFO "GET /static/tiny_mce/themes/advanced/skins/default/ui.css HTTP/1.1" 200 15959
+INFO "GET /static/tiny_mce/themes/advanced/skins/default/content.css HTTP/1.1" 200 2607
+INFO "GET /static/tiny_mce/themes/advanced/img/icons.gif HTTP/1.1" 200 11982
+INFO "POST /admin/books/books/add/ HTTP/1.1" 200 10805
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+ERROR Internal Server Error: /admin/books/books/add/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 552, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1409, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1449, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 980, in save_model
+    obj.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 848, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "E:\bookstore\py2_venv\lib\site-packages\django\dispatch\dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 178, in update
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR Internal Server Error: /admin/books/books/add/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 552, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1409, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1449, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 980, in save_model
+    obj.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 848, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "E:\bookstore\py2_venv\lib\site-packages\django\dispatch\dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 178, in update
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR "POST /admin/books/books/add/ HTTP/1.1" 500 169904
+INFO "GET /admin/books/books/add/ HTTP/1.1" 200 10522
+INFO "GET /admin/ HTTP/1.1" 200 4715
+INFO "GET /admin/ HTTP/1.1" 200 4715
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1593
+INFO "POST /user/login_check/ HTTP/1.1" 200 43
+WARNING Not Found: /user/login/undefined
+WARNING Not Found: /user/login/undefined
+WARNING "GET /user/login/undefined HTTP/1.1" 404 5044
+INFO "GET /user HTTP/1.1" 301 0
+INFO "GET /user/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1635
+INFO "GET /admin/users/passport/ HTTP/1.1" 200 3051
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO "GET /admin/users/passport/add/ HTTP/1.1" 200 5656
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "POST /admin/users/passport/add/ HTTP/1.1" 302 0
+INFO "GET /admin/users/passport/ HTTP/1.1" 200 4388
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO "GET /admin/users/passport/1/change/ HTTP/1.1" 200 5945
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /admin/ HTTP/1.1" 200 5045
+INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO "GET /admin/authtoken/token/ HTTP/1.1" 200 3047
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /admin/authtoken/token/add/ HTTP/1.1" 200 4440
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /admin/auth/user/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "POST /admin/auth/user/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4742
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /admin/ HTTP/1.1" 200 5045
+WARNING Not Found: /user/login/index.html
+WARNING Not Found: /user/login/index.html
+WARNING "GET /user/login/index.html HTTP/1.1" 404 5047
+INFO "GET /api HTTP/1.1" 301 0
+INFO "GET /api/ HTTP/1.1" 200 5239
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING "GET /api/books/ HTTP/1.1" 401 5121
+WARNING Not Found: /ap
+WARNING Not Found: /ap
+WARNING "GET /ap HTTP/1.1" 404 3255
+WARNING Not Found: /tinymce
+WARNING Not Found: /tinymce
+WARNING "GET /tinymce HTTP/1.1" 404 3270
+WARNING Not Found: /list
+WARNING Not Found: /list
+WARNING "GET /list HTTP/1.1" 404 3261
+WARNING Not Found: /books
+WARNING Not Found: /books
+WARNING "GET /books HTTP/1.1" 404 3264
+INFO "GET /search HTTP/1.1" 301 0
+INFO "GET /search/ HTTP/1.1" 200 3410
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /cart/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1569
+INFO "GET /user/register/ HTTP/1.1" 200 3516
+INFO "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3537
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1805
+INFO "POST /user/login_check/ HTTP/1.1" 200 61
+INFO "POST /user/login_check/ HTTP/1.1" 200 61
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3535
+INFO "POST /user/register_handle/ HTTP/1.1" 302 0
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8037
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1485
+INFO "POST /user/login_check/ HTTP/1.1" 200 27
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8033
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/ HTTP/1.1" 200 4956
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /static/images/down.png HTTP/1.1" 200 1064
+INFO "GET /list/1/1/ HTTP/1.1" 200 4956
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/ HTTP/1.1" 200 4956
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/ HTTP/1.1" 200 4956
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/?sort=price HTTP/1.1" 200 4954
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/?sort=hot HTTP/1.1" 200 4952
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/ HTTP/1.1" 200 11946
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO 
+INFO 
+INFO "GET / HTTP/1.1" 200 8033
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /admin/books/books/add/ HTTP/1.1" 200 10522
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /admin/books/books/ HTTP/1.1" 200 3033
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /admin/books/books/add/ HTTP/1.1" 200 10522
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+ERROR Internal Server Error: /admin/books/books/add/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 552, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1409, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1449, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 980, in save_model
+    obj.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 848, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "E:\bookstore\py2_venv\lib\site-packages\django\dispatch\dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 178, in update
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR Internal Server Error: /admin/books/books/add/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 552, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1409, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1449, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 980, in save_model
+    obj.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 848, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "E:\bookstore\py2_venv\lib\site-packages\django\dispatch\dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 178, in update
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR "POST /admin/books/books/add/ HTTP/1.1" 500 169973
+INFO "GET /admin/books/books/add/ HTTP/1.1" 200 10522
+INFO "GET /admin/books/books/add/ HTTP/1.1" 200 10522
+INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/tiny_mce.js HTTP/1.1" 304 0
+INFO "GET /static/django_tinymce/jquery-1.9.1.min.js HTTP/1.1" 304 0
+INFO "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/langs/en.js HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/editor_template.js HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/langs/en.js HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/skins/default/ui.css HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/skins/default/content.css HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/img/icons.gif HTTP/1.1" 304 0
+ERROR Internal Server Error: /admin/books/books/add/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 552, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1409, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1449, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 980, in save_model
+    obj.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 848, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "E:\bookstore\py2_venv\lib\site-packages\django\dispatch\dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 178, in update
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR Internal Server Error: /admin/books/books/add/
+Traceback (most recent call last):
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 552, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1409, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 1449, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\contrib\admin\options.py", line 980, in save_model
+    obj.save()
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\bookstore\py2_venv\lib\site-packages\django\db\models\base.py", line 848, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "E:\bookstore\py2_venv\lib\site-packages\django\dispatch\dispatcher.py", line 193, in send
+    for receiver in self._live_receivers(sender)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\signals.py", line 52, in handle_save
+    index.update_object(instance, using=using)
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\indexes.py", line 284, in update_object
+    backend.update(self, [instance])
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 178, in update
+    self.setup()
+  File "E:\bookstore\py2_venv\lib\site-packages\haystack\backends\whoosh_backend.py", line 126, in setup
+    self.index = self.storage.open_index(schema=self.schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\filestore.py", line 176, in open_index
+    return indexclass(self, schema=schema, indexname=indexname)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 421, in __init__
+    TOC.read(self.storage, self.indexname, schema=self._schema)
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\index.py", line 664, in read
+    segments = stream.read_pickle()
+  File "E:\bookstore\py2_venv\lib\site-packages\whoosh\filedb\structfile.py", line 245, in read_pickle
+    return load_pickle(self.file)
+ValueError: unsupported pickle protocol: 4
+ERROR "POST /admin/books/books/add/ HTTP/1.1" 500 170088
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8033
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /admin/books/books/add/ HTTP/1.1" 302 0
+INFO "GET /admin/books/books/ HTTP/1.1" 200 4352
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO "GET /admin/books/books/4/change/ HTTP/1.1" 200 11147
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "GET /list/1/1/ HTTP/1.1" 200 5750
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 200 286791
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9268
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /cart/add/ HTTP/1.1" 200 10
+INFO "POST /cart/add/ HTTP/1.1" 200 60
+INFO "GET /cart/ HTTP/1.1" 200 12715
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/place/ HTTP/1.1" 200 6661
+INFO "GET /static/images/pay_icons.png HTTP/1.1" 200 11917
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/commit/ HTTP/1.1" 200 54
+WARNING Not Found: /order/place/user_center_site.html
+WARNING Not Found: /order/place/user_center_site.html
+WARNING "GET /order/place/user_center_site.html HTTP/1.1" 404 3767
+INFO "POST /order/commit/ HTTP/1.1" 200 54
+WARNING Not Found: /order/place/user_center_site.html
+WARNING Not Found: /order/place/user_center_site.html
+WARNING "GET /order/place/user_center_site.html HTTP/1.1" 404 3767
+INFO "GET /user/order/ HTTP/1.1" 200 4771
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO "GET /cart/ HTTP/1.1" 200 12715
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/place/ HTTP/1.1" 200 6661
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/commit/ HTTP/1.1" 200 54
+INFO "POST /order/commit/ HTTP/1.1" 200 54
+WARNING Not Found: /order/place/user_center_site.html
+WARNING Not Found: /order/place/user_center_site.html
+WARNING "GET /order/place/user_center_site.html HTTP/1.1" 404 3767
+INFO "GET /search/?q=python HTTP/1.1" 200 3418
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /search/?q=%E8%BF%9B%E9%98%B6 HTTP/1.1" 200 3418
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /search/?q= HTTP/1.1" 200 3406
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /search/?q= HTTP/1.1" 200 3406
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /search/?q= HTTP/1.1" 200 3406
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /admin/ HTTP/1.1" 200 5334
+INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO "GET /admin/books/ HTTP/1.1" 200 2195
+INFO "GET /admin/books/books/ HTTP/1.1" 200 4168
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "GET /user/ HTTP/1.1" 200 4667
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4910
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/ HTTP/1.1" 200 12715
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/place/ HTTP/1.1" 200 6694
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/commit/ HTTP/1.1" 200 10
+INFO "GET /user/order/ HTTP/1.1" 200 6158
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /order/pay/ HTTP/1.1" 200 60
+INFO "POST /order/pay/ HTTP/1.1" 200 60
+INFO "GET /user/order/ HTTP/1.1" 200 6158
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4687
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/order/ HTTP/1.1" 200 6158
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8374
+INFO "GET /static/books/800-7_0I3u3x3.gif HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /admin/ HTTP/1.1" 200 5334
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8374
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /admin/ HTTP/1.1" 200 5334
+INFO "GET /admin/books/books/4/change/ HTTP/1.1" 200 11147
+INFO "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+INFO "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+INFO "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+INFO "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO "GET /static/tiny_mce/tiny_mce.js HTTP/1.1" 304 0
+INFO "GET /static/django_tinymce/init_tinymce.js HTTP/1.1" 304 0
+INFO "GET /static/django_tinymce/jquery-1.9.1.min.js HTTP/1.1" 304 0
+INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO "GET /static/tiny_mce/themes/advanced/editor_template.js HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/langs/en.js HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/langs/en.js HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/skins/default/ui.css HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/skins/default/content.css HTTP/1.1" 304 0
+INFO "GET /static/tiny_mce/themes/advanced/img/icons.gif HTTP/1.1" 304 0
+INFO "GET /admin/books/books/4/change/books/800-7_0I3u3x3.gif HTTP/1.1" 301 0
+INFO "GET /admin/books/books/4/change/books/800-7_0I3u3x3.gif/ HTTP/1.1" 302 0
+INFO "GET /admin/books/books/4/change/books/800-7_0I3u3x3.gif/change/ HTTP/1.1" 302 0
+INFO "GET /admin/ HTTP/1.1" 200 5528
+INFO "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO "GET /admin/books/books/ HTTP/1.1" 200 4168
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "GET /admin/books/books/4/change/ HTTP/1.1" 200 11147
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "POST /admin/books/books/4/change/ HTTP/1.1" 302 0
+INFO "GET /admin/books/books/ HTTP/1.1" 200 4354
+INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 200 49974
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /cart/add/ HTTP/1.1" 200 60
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/logout/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1733
+INFO "POST /user/login_check/ HTTP/1.1" 200 27
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /admin/books/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/books/ HTTP/1.1" 200 1662
+INFO "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO "POST /admin/login/?next=/admin/books/ HTTP/1.1" 200 1828
+INFO "POST /admin/login/?next=/admin/books/ HTTP/1.1" 302 0
+INFO "GET /admin/books/ HTTP/1.1" 200 2195
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/order/ HTTP/1.1" 200 6149
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/order/ HTTP/1.1" 200 6149
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/order/ HTTP/1.1" 200 6149
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/order/ HTTP/1.1" 200 6149
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/ HTTP/1.1" 200 11946
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/logout/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/register/ HTTP/1.1" 200 3516
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3535
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3536
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3536
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3536
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3547
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3547
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3547
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3562
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3562
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3562
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3574
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3574
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3574
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3574
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3574
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3580
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3580
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3580
+INFO "POST /user/register_handle/ HTTP/1.1" 200 3580
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1734
+INFO "POST /user/login_check/ HTTP/1.1" 200 27
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+WARNING Not Found: /index
+WARNING Not Found: /index
+WARNING "GET /index HTTP/1.1" 404 3264
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /admin/books/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/books/ HTTP/1.1" 200 1662
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/ HTTP/1.1" 200 5732
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /list/1/1/ HTTP/1.1" 200 5732
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/logout/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1526
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR "GET /user/ HTTP/1.1" 500 72286
+WARNING Not Found: /user/1
+WARNING Not Found: /user/1
+WARNING "GET /user/1 HTTP/1.1" 404 5002
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR "GET /user/ HTTP/1.1" 500 72287
+INFO "GET /user/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1873
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1593
+INFO "POST /user/login_check/ HTTP/1.1" 200 43
+WARNING Not Found: /user/login/undefined
+WARNING Not Found: /user/login/undefined
+WARNING "GET /user/login/undefined HTTP/1.1" 404 5044
+INFO "POST /user/login_check/ HTTP/1.1" 200 27
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/3 HTTP/1.1" 301 0
+INFO "GET /books/3/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+WARNING Not Found: /books/
+WARNING Not Found: /books/
+WARNING "GET /books/ HTTP/1.1" 404 3267
+INFO "GET /books/2 HTTP/1.1" 301 0
+INFO "GET /books/2/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /books/4/ HTTP/1.1" 200 9250
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "POST /cart/add/ HTTP/1.1" 200 60
+INFO "POST /cart/add/ HTTP/1.1" 200 60
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/logout/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR "GET /user/ HTTP/1.1" 500 72072
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1590
+INFO "POST /user/login_check/ HTTP/1.1" 200 27
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8365
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/ HTTP/1.1" 200 4678
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR "GET /user/ HTTP/1.1" 500 70964
+WARNING Not Found: /user/1
+WARNING Not Found: /user/1
+WARNING "GET /user/1 HTTP/1.1" 404 5002
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR Internal Server Error: /user/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\users\views.py", line 149, in user
+    key = 'history_%d' % passport_id
+TypeError: %d format: a number is required, not NoneType
+ERROR "GET /user/ HTTP/1.1" 500 70965
+INFO "GET /user/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1609
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO "GET /static/images/logo.png HTTP/1.1" 200 15796
+INFO "GET /static/images/login_banner.png HTTP/1.1" 200 26039
+INFO "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1839
+INFO "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+INFO "GET /static/css/main.css HTTP/1.1" 304 0
+INFO "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO "GET /static/css/main.css HTTP/1.1" 304 0
+INFO "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1815
+INFO "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO "GET /static/css/main.css HTTP/1.1" 304 0
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1771
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO "GET /user/address/ HTTP/1.1" 200 4951
+INFO "GET /cart/count/ HTTP/1.1" 200 10
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1601
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO "GET /static/images/logo.png HTTP/1.1" 200 15796
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/images/icons02.png HTTP/1.1" 200 2071
+INFO "GET /static/images/login_banner.png HTTP/1.1" 200 26039
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3282
+INFO "GET /user/address/ HTTP/1.1" 200 4914
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/images/icons.png HTTP/1.1" 200 5931
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3282
+INFO "GET /user/address/ HTTP/1.1" 200 4914
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('users:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('users:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82993
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR Internal Server Error: /user/address/
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 77, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\bookstore\py3\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bookstore\utils\decorator.py", line 13, in wrapper
+    return redirect(reverse('user:login'))
+  File "E:\bookstore\py3\lib\site-packages\django\urls\base.py", line 87, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR "GET /user/address/ HTTP/1.1" 500 82991
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1817
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1555
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1635
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1682
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1807
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1568
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1700
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1516
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /user/logout/ HTTP/1.1" 302 0
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /static/books/book.jpg HTTP/1.1" 304 0
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1676
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1892
+INFO "GET /user/address/ HTTP/1.1" 200 4914
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1711
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO "GET /static/css/main.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1432
+INFO "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1545
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1897
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1690
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1676
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/ HTTP/1.1" 302 0
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1756
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1728
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /static/css/reset.css HTTP/1.1" 304 0
+INFO "GET /static/css/main.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/slide.js HTTP/1.1" 304 0
+INFO "GET /static/images/logo.png HTTP/1.1" 304 0
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1551
+INFO "GET /static/images/icons02.png HTTP/1.1" 304 0
+INFO "GET /static/images/login_banner.png HTTP/1.1" 304 0
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1610
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1774
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO "GET /static/images/logo.png HTTP/1.1" 200 15796
+INFO "GET /static/images/slide.jpg HTTP/1.1" 200 78511
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /static/images/adv01.jpg HTTP/1.1" 200 42152
+INFO "GET /static/images/icons.png HTTP/1.1" 200 5931
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /static/images/slide04.jpg HTTP/1.1" 200 181109
+INFO "GET /static/books/book.jpg HTTP/1.1" 200 49974
+INFO "GET /static/images/slide02.jpg HTTP/1.1" 200 447014
+INFO "GET /static/images/banner01.jpg HTTP/1.1" 200 39415
+INFO "GET /static/images/banner03.jpg HTTP/1.1" 200 5569
+INFO "GET /static/images/slide03.jpg HTTP/1.1" 200 49384
+INFO "GET /static/images/banner02.jpg HTTP/1.1" 200 14224
+INFO "GET /static/images/banner04.jpg HTTP/1.1" 200 14876
+INFO "GET /static/images/banner05.jpg HTTP/1.1" 200 17903
+INFO "GET /static/images/banner06.jpg HTTP/1.1" 200 10206
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/register/ HTTP/1.1" 200 3561
+INFO "GET /user/register/ HTTP/1.1" 200 3561
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/register/ HTTP/1.1" 200 3561
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/register/ HTTP/1.1" 200 3561
+INFO "GET /user/address/ HTTP/1.1" 302 0
+INFO "GET /user/register/ HTTP/1.1" 200 3561
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO "GET /user/verifycode/ HTTP/1.1" 200 1844
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235
+INFO b''
+INFO b''
+INFO "GET / HTTP/1.1" 200 8369
+INFO "GET /static/images/slide.jpg HTTP/1.1" 200 78511
+INFO "GET /static/js/jquery-ui.min.js HTTP/1.1" 200 70994
+INFO "GET /static/js/slide.js HTTP/1.1" 200 2473
+INFO "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO "GET /static/images/slide03.jpg HTTP/1.1" 200 49384
+INFO "GET /static/images/slide04.jpg HTTP/1.1" 200 181109
+INFO "GET /static/images/banner03.jpg HTTP/1.1" 200 5569
+INFO "GET /static/images/slide02.jpg HTTP/1.1" 200 447014
+INFO "GET /static/images/banner02.jpg HTTP/1.1" 200 14224
+INFO "GET /static/images/logo.png HTTP/1.1" 200 15796
+INFO "GET /static/images/adv01.jpg HTTP/1.1" 200 42152
+INFO "GET /static/images/banner04.jpg HTTP/1.1" 200 14876
+INFO "GET /static/images/banner06.jpg HTTP/1.1" 200 10206
+INFO "GET /static/css/main.css HTTP/1.1" 200 22950
+INFO "GET /static/images/banner05.jpg HTTP/1.1" 200 17903
+INFO "GET /static/books/book.jpg HTTP/1.1" 200 49974
+INFO "GET /static/images/banner01.jpg HTTP/1.1" 200 39415
+INFO "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO "GET /static/images/adv02.jpg HTTP/1.1" 200 300169
+INFO "GET /static/images/icons.png HTTP/1.1" 200 5931
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4218
+INFO "GET /search/?q=python HTTP/1.1" 200 3422
+INFO "GET /cart/count/ HTTP/1.1" 302 0
+INFO "GET /user/login/ HTTP/1.1" 200 4235

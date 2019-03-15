@@ -1,7 +1,8 @@
 # 目录
 #### 运行项目条件
 ```
-    1、安装python3.5.3
+    1、安装python3.5.3，安装依赖包
+        pip install -r requirement.txt
     2、安装Redis服务端
     3、安装mysql服务端并新建bookstore数据库
     4、修改/bookstore/setting.py文件中的数据库配置

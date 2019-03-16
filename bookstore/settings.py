@@ -91,7 +91,8 @@ DATABASES = {
         'NAME': 'bookstore',
         'USER': 'root',
         'PASSWORD': 'guchen',
-        'HOST': '192.168.205.77',
+        # 'HOST': '192.168.205.77',
+        'HOST': '192.168.1.6',
         'PORT': 3306,
     }
 }

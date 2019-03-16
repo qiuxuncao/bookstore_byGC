@@ -39,8 +39,12 @@
 ![](.README_images/login.png)
 * 10、愉快的玩耍吧
         
-    注意：原作者setting.py中全局搜索配置写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
-          需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
+    注意：
+```
+    1、 原作者setting.py中全局搜索配置写的是'ENGINE': 'haystack.backends.whoosh_zh_backend.WhooshEngine',
+        需要改为'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',即去掉zh
+```
+
 ```
 # 全文检索配置
 HAYSTACK_CONNECTIONS = {
@@ -52,6 +56,10 @@ HAYSTACK_CONNECTIONS = {
         'PATH': os.path.join(BASE_DIR, 'whoosh_index'),
     }
 }
+```
+
+```
+2、需要将原作者的/bookstore/bookstore/celery.py修改为celeryApp.py,否则celery.py和celery库文件重名
 ```
 ____________________________________________________________________________________________________
 # 教学部分

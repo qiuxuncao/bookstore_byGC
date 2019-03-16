@@ -1,7 +1,20 @@
 # 本地化运行项目条件
-* 1、安装python3.5.3，安装依赖包
+* 1、安装python3.5.3，创建虚拟环境，安装依赖包
 ```bash
-      pip install -r requirement.txt
+        #安装虚拟环境库
+        pip3 install virtualenv
+        
+        # 使用virtualenv创建虚拟环境目录venv_py3
+        virtualenv D：/venv_py3_bookstore
+        
+        #在D：/venv_py3_bookstore/Scripts下执行activate.bat启动虚拟环境
+        activate.bat
+        
+        #执行pip -V，看是否使用的是该虚拟环境
+        pip -V
+        
+        # 安装依赖
+        pip install -r requirement.txt
 ```        
 * 2、安装Redis服务端
 * 3、安装mysql服务端并新建bookstore数据库

@@ -4,17 +4,19 @@
         #安装虚拟环境库
         pip3 install virtualenv
         
-        # 使用virtualenv创建虚拟环境目录venv_py3
-        virtualenv D：/venv_py3_bookstore
+        # 在Python35的Scripts目录下，使用virtualenv在D盘下创建虚拟环境目录venv_py3_bookstore
+        E:\Python35\Scripts>virtualenv D:/venv_py3_bookstore
         
-        #在D：/venv_py3_bookstore/Scripts下执行activate.bat启动虚拟环境
-        activate.bat
+        #在D:/venv_py3_bookstore/Scripts下执行activate.bat启动虚拟环境
+        D:\venv_py3_bookstore\Scripts>activate.bat
+        (venv_py3_bookstore) D:\venv_py3_bookstore\Scripts>
         
         #执行pip -V，看是否使用的是该虚拟环境
-        pip -V
+        (venv_py3_bookstore) D:\venv_py3_bookstore\Scripts>pip -V
+        pip 19.0.3 from d:\venv_py3_bookstore\lib\site-packages\pip (python 3.5)
         
-        # 安装依赖
-        pip install -r requirement.txt
+        # 在requirement文件所在目录安装依赖
+        D:\bookstore_byGC>pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```        
 * 2、安装Redis服务端
 * 3、安装mysql服务端并新建bookstore数据库
@@ -45,7 +47,9 @@
 ```
     $ python manage.py runserver 8000
 ```
-* 8、访问 127.0.0.1:8000
+* 8、访问
+    - 前台：127.0.0.1:8000
+    - 后台：127.0.0.1:8000/admin
 ![](.README_images/index.png)
 * 9、然后前台注册登录等,后台添加数据
 ![](.README_images/zhuce.png)
